@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* barre de navigation */ 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+nav h1 {
+    font-size: 20px;
+}
+
+nav .onglets {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+}
+nav .onglets a:hover {
+    color: red;
+}
+nav .onglets input {
+    margin:8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+
+/* Fin de barre de navigation */
+/* debut du header */ 
+header {
+    
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+header h1 {
+    font-size: 55px;
+    max-width: 500px;
+    text-align: center;
+    color: rgb(100, 95, 95);
+}
+header button {
+    padding:15px 20px ;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+      }
+header button:hover {
+    color: red;
+}
+
+/* Fin du header */
+
+/* Section principale */ 
+.main {
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* toute les cartes */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.cards .card {
+    margin-right: 20px;
+    
+}
+.cards .card img{
+    width: 350px;
+    cursor: pointer;
+}
+.cards .card .card-header {
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.cards .card .card-header h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    color: w;
+}
+.cards .card .card-body p{
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(100, 95, 95);
+
+}
+/* fin de toutes les cartes */
+
+/* Fin de section principale */
